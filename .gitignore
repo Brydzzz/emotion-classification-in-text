@@ -1,0 +1,32 @@
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Weights & Biases / PyTorch Lightning logs
+wandb/
+lightning_logs/
+checkpoints/
+*.ckpt
+
+# Model artifacts & Hugging Face caches
+models/
+results/
+outputs/
+.cache/
+hf_cache/
+
+# OS / Editor artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
